@@ -1,0 +1,46 @@
+#root{
+    background-color:#F4F4F6;
+}
+.form {
+    width:500px;
+    border:1px,solid gray;
+    // margin:50px;
+    margin-top:70px;
+    margin-left: 23rem;
+    padding: 3rem;
+    box-shadow:2px 2px 2px 2px;
+    background-color: #FFFFFF;
+    color: #989898;
+    border-radius:10px;
+    &_head{
+         background-color: #2c79de;
+     } 
+    &_header2{
+        display: flex;
+        h1 {
+            color: #222;
+        }
+        p{
+        margin-top:22px;
+        color: #396cc5;
+        font-size: 30px;
+        }
+    }
+    &_container { 
+        gap: 1rem;  
+        display: flex;
+        flex-direction: column;
+        .rowThree{
+            flex-flow: wrap;
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));         
+        }
+    }
+    &_footer {
+        padding-top: 1rem;
+    }
+}
+label{
+    text-transform: capitalize;
+}

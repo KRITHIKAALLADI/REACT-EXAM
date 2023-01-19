@@ -1,0 +1,48 @@
+{
+  "data": [
+    {
+      "social": 45,
+      "science": 56,
+      "Name": "krithika",
+      "Rollnumber": "805",
+      "English": "34",
+      "Telugu": "23",
+      "Hindi": "67",
+      "Totalmarks": "567",
+      "id": 0.4382262303337283
+    },
+    {
+      "social": 56,
+      "science": 56,
+      "Name": "vinny",
+      "Rollnumber": "2",
+      "English": "34",
+      "Telugu": "45",
+      "Hindi": "23",
+      "Totalmarks": "456",
+      "id": 0.02219274414657102
+    },
+    {
+      "social": 92,
+      "science": 99,
+      "Name": "manasa",
+      "Rollnumber": "679",
+      "English": "73",
+      "Telugu": "83",
+      "Hindi": "78",
+      "Totalmarks": "738",
+      "id": 0.5969971304211663
+    },
+    {
+      "social": 92,
+      "science": 83,
+      "Name": "satish",
+      "Rollnumber": "847",
+      "English": "83",
+      "Telugu": "29",
+      "Hindi": "38",
+      "Totalmarks": "829",
+      "id": 0.1325807438886617
+    }
+  ]
+}
