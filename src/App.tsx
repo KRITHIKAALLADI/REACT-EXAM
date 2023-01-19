@@ -12,10 +12,10 @@ function App() {
     <>
       <BrowserRouter>
       <Header/>
-        <div className="navigation">
-          {/* <Link className='btn' to="view"><button>View</button></Link> */}
+        {/* <div className="navigation">
+           <Link className='btn' to="view"><button>View</button></Link> 
           <Link className='btn' to="create"><button>ADD</button></Link>
-        </div>
+        </div> */}
         <Routes>
           <Route path="/" element={<View />} />                              
           <Route path="/view" element={<View />} />

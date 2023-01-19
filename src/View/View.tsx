@@ -124,6 +124,8 @@ const View = () => {
 
     return (
         <div className='table'>
+             <Link className='btn' to="/create"><button>ADD</button></Link>
+            <div className='table_one'>
             {data &&
                 <DetailsList
                     items={data}
@@ -131,6 +133,7 @@ const View = () => {
                     setKey="set"
                     layoutMode={DetailsListLayoutMode.justified}
                 />}
+                </div>
         </div>
     )
 }

@@ -1,8 +1,16 @@
-
-    
-    .table{
+.table{
+    a button{
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(0, 60, 255);
+        border-radius: 10px;
+        padding: 0.5rem 2rem;
+        color:rgb(0, 60, 255) ;
+        float:right;
+        margin-top:5px;
+      }
+    &_one{
         margin-left: 50px;
-        margin-top: 70px;
+        margin-top: 60px;
         width: 1250px;
         height: 866px;
         background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -12,6 +20,7 @@
         justify-content: space-between;
         
     }
+}
 .btn {
     text-decoration: none;
     // justify-content: space-between;
